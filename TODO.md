@@ -15,7 +15,7 @@ Fluxo básico: cadastro do funcionário → captura da foto → armazenamento do
 - [x] Tela de **Lista de Funcionários** cadastrados
 - [x] Tela de **Histórico de Registros** (funcionário, data, horário, tipo)
 - [x] Ligar as telas em um protótipo navegável
-- [ ] Adicionar o link do Figma no README.md
+- [x] Adicionar o link do Figma no README.md
 
 ## 2. Estrutura do repositório
 
