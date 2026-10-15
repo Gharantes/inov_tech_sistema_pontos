@@ -19,7 +19,7 @@ Fluxo básico: cadastro do funcionário → captura da foto → armazenamento do
 
 ## 2. Estrutura do repositório
 
-- [ ] Criar as pastas `frontend/` (React) e `backend/` (Python)
+- [x] Criar as pastas `frontend/` (React) e `backend/` (Python)
 - [ ] Criar `.gitignore` (node_modules, venv, `__pycache__`, banco local, fotos cadastradas)
 - [ ] Atualizar o README.md com a descrição do projeto e as instruções para rodar
 
