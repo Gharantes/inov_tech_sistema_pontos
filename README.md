@@ -1,6 +1,56 @@
 # Sistema de Registro de Ponto com Reconhecimento Facial
 
-Sistema de ponto em que o funcionário é identificado pelo rosto. Stack: **React** (frontend), **Python** (backend/API) e **DeepFace** (reconhecimento facial).
+Sistema de ponto em que o funcionário é identificado pelo rosto, sem crachá nem senha. Stack: **React** (frontend), **Python** (backend/API) e **DeepFace** (reconhecimento facial).
+
+## Como funciona
+
+1. O funcionário é cadastrado com nome, matrícula, cargo e uma foto do rosto.
+2. Na hora de bater o ponto, a câmera captura o rosto e o usuário escolhe o tipo de registro (entrada, saída ou intervalo).
+3. O backend compara a imagem capturada com as fotos cadastradas usando o DeepFace.
+4. Se o rosto for reconhecido, o sistema grava o funcionário, a data, o horário e o tipo no banco de dados. Se não for, o registro é recusado.
+
+O sistema também lista os funcionários cadastrados e o histórico de registros de ponto.
+
+## Estrutura do repositório
+
+```
+frontend/   Aplicação React (telas de cadastro, ponto, lista e histórico)
+backend/    API em Python com DeepFace e banco de dados
+TODO.md     Etapas do trabalho
+```
+
+## Como rodar
+
+Pré-requisitos: **Python 3.10+** e **Node.js 18+**, além de uma webcam.
+
+### Backend
+
+```bash
+cd backend
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+# Linux / macOS
+source venv/bin/activate
+
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+A API fica disponível em `http://localhost:8000`. Na primeira comparação de rostos, o DeepFace baixa os modelos de reconhecimento, o que pode levar alguns minutos.
+
+### Frontend
+
+Em outro terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+A aplicação abre em `http://localhost:5173`.
 
 ## Protótipo no Figma
 
