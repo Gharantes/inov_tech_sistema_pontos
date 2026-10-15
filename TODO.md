@@ -12,7 +12,7 @@ Fluxo básico: cadastro do funcionário → captura da foto → armazenamento do
 - [x] Tela de **Cadastro de Funcionário**: campos nome, matrícula e cargo + área de captura/upload da foto facial
 - [x] Tela de **Registro de Ponto**: visualização da câmera, botão de captura e seleção do tipo (entrada, saída, intervalo)
 - [x] Estados de resultado do ponto: sucesso (funcionário identificado + data/hora) e falha (rosto não reconhecido)
-- [ ] Tela de **Lista de Funcionários** cadastrados
+- [x] Tela de **Lista de Funcionários** cadastrados
 - [ ] Tela de **Histórico de Registros** (funcionário, data, horário, tipo)
 - [ ] Ligar as telas em um protótipo navegável
 - [ ] Adicionar o link do Figma no README.md
