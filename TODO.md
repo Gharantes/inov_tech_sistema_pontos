@@ -8,7 +8,7 @@ Fluxo básico: cadastro do funcionário → captura da foto → armazenamento do
 
 ## 1. Protótipo no Figma (fazer primeiro)
 
-- [ ] Criar o arquivo no Figma e definir paleta, tipografia e componentes básicos (botões, inputs, cards)
+- [x] Criar o arquivo no Figma e definir paleta, tipografia e componentes básicos (botões, inputs, cards)
 - [ ] Tela de **Cadastro de Funcionário**: campos nome, matrícula e cargo + área de captura/upload da foto facial
 - [ ] Tela de **Registro de Ponto**: visualização da câmera, botão de captura e seleção do tipo (entrada, saída, intervalo)
 - [ ] Estados de resultado do ponto: sucesso (funcionário identificado + data/hora) e falha (rosto não reconhecido)
